@@ -8,7 +8,7 @@ Either use the file argument `imageinfo -file test-images/jelly.jpeg` or pipe th
 
 ```json
 {
-  "uri": "hds://image/oT1bFPH3qvMkXTv6ewod9CoM9AA.jpeg",
+  "uri": "cmbr://image/oT1bFPH3qvMkXTv6ewod9CoM9AA.jpeg",
   "uuid":"8481e3d7-b5ef-5e74-a18c-8551fa09ba41",
   "width":3000,
   "height":2000
@@ -28,18 +28,18 @@ imageinfo then responds with the image information:
    "nature" : {
       "width" : 3000,
       "height" : 2000,
-      "uri" : "hds://image/OOZgjPEBdVQd7b-HQ3hIpA0yuX4.jpeg",
+      "uri" : "cmbr://image/OOZgjPEBdVQd7b-HQ3hIpA0yuX4.jpeg",
       "uuid" : "9a822379-489c-5979-9c1c-239844525362"
    },
    "jellybelly" : {
-      "uri" : "hds://image/oT1bFPH3qvMkXTv6ewod9CoM9AA.jpeg",
+      "uri" : "cmbr://image/oT1bFPH3qvMkXTv6ewod9CoM9AA.jpeg",
       "uuid" : "8481e3d7-b5ef-5e74-a18c-8551fa09ba41",
       "width" : 3000,
       "height" : 2000
    },
    "analog" : {
       "uuid" : "0788077a-c719-5ec8-9da1-9954f83eac35",
-      "uri" : "hds://image/VcHoDTqrGvd1fL8FOsX2TqoRiQM.jpeg",
+      "uri" : "cmbr://image/VcHoDTqrGvd1fL8FOsX2TqoRiQM.jpeg",
       "height" : 3264,
       "width" : 4896
    }

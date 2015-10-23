@@ -24,7 +24,7 @@ import (
 func main() {
 	help := flag.Bool("help", false, "Show this help")
 	file := flag.String("file", "", "A file to calculate the uuid for")
-	base := flag.String("base", "hds://image/", "The base URI for the entity")
+	base := flag.String("base", "cmbr://image/", "The base URI for the entity")
 	port := flag.Int("port", 0, "A port to listen for image requests on")
 	flag.Parse()
 
